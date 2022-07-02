@@ -1,9 +1,11 @@
 import React from 'react'
+import Nav from './Nav'
 
 
 export default function Home() {
   return (
     <div>
+         <Nav />
         <div class="center">
   <h1 class="center__text glitch is-glitching" >
   <div class="containerr">
