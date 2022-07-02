@@ -27,7 +27,7 @@ export default function Home() {
         
         </div>
         <div className="getstart">
-        <a href="#abouts" id='start'>Get Started</a>
+        <a href="#abouts" id='start'>Get Started </a>
         </div>
     </div>
 </div>
