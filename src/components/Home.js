@@ -1,4 +1,6 @@
 import React from 'react'
+import About from './About'
+import Card from './Card'
 import Nav from './Nav'
 
 
@@ -32,9 +34,11 @@ export default function Home() {
 
     
   </h1>
+
 </div>
 
-
+<About />
+<Card />
     </div>
 
   )
