@@ -589,6 +589,7 @@ i{
   #tag{
    text-align: center;
     font-size: 30px;
+    margin-left: 1em;
   }
   /* about */
   .flexhero{
@@ -610,7 +611,7 @@ i{
   }
   .text{
     padding: 0em 0;
-    width: 100vw;
+    width: 100%;
     /* margin-right: 2em; */
   margin-top: -1em;
   }
