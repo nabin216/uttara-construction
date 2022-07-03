@@ -415,11 +415,17 @@ text-align: center;
   border-radius: 16px;
 }
 .heading{
-  color: darkblue;
+
+color: darkblue;
   font-size: 2em;
   text-align: center;
-  padding-top: 1.3em;
+  padding-top: 1em;
   font-weight: 600;
+  padding-bottom: 1em;
+}
+#head{
+  background-color: darkblue;
+  color: white;
 }
 #abouts{
   /* background-color:#ddd; */
@@ -490,7 +496,7 @@ margin: 2em 4em;
               0 32px 32px rgba(0,0,0,0.11);
 transition: all 0.3s ease-in-out;
   transform: scale(1.2);
-  border: rgba(255, 255, 255, 0.847) 4px solid;
+  border: rgba(255, 255, 255, 0.066) 4px solid;
 
 }
 /* card */
@@ -581,7 +587,7 @@ i{
   }
   /* home page tagline */
   #tag{
-    margin-left: 0.5em;
+   text-align: center;
     font-size: 30px;
   }
   /* about */
@@ -590,7 +596,10 @@ i{
     grid-template-columns: auto;
     align-items: center;
     justify-items: center;
-
+ 
+    margin-left: 0;
+    margin-top: 1em;
+    padding-top: 1.5em;
   }
   .image{
     margin: 2em 0em;
@@ -611,5 +620,17 @@ i{
       font-weight: 600;
       padding: 0 1em;
   
+  }
+  .link{
+    margin: 1em 1em;
+  }
+  .heading{
+    font-size:1.3em ;
+  }
+  .flexcard{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
   }
 }

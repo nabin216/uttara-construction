@@ -3,7 +3,7 @@ import profile from '../assets/profile21.jpg'
 export default function About() {
   return (
     <div id='abouts'>
-        <h2 className="heading">Know About us</h2>
+        <h2 className="heading" id='head'>Know About us</h2>
         <div className="flexhero">
     <div className="image">
         <img id= 'img' src={profile} alt=""  height={500}/>
