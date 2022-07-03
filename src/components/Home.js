@@ -1,6 +1,8 @@
 import React from 'react'
 import About from './About'
 import Card from './Card'
+import Footer from './Footer'
+import Icard1 from './Icard1'
 import Nav from './Nav'
 
 
@@ -39,6 +41,8 @@ export default function Home() {
 
 <About />
 <Card />
+<Icard1 />
+<Footer />
     </div>
 
   )

@@ -503,3 +503,49 @@ transition: all 0.3s ease-in-out;
   align-items: center;
   justify-items: center;
 }
+
+/* interior section */
+#isec{
+  background-color: #1d2951;
+  background-image: linear-gradient(315deg, #1d2951 0%, #dbe7fc 74%);
+}
+
+#flexint{
+justify-content: center;
+justify-items: center;
+align-items: center;
+
+}
+#interior{
+  height: 400px;
+  width: 400px;
+}
+
+/* footer */
+.foot{
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e4edfa;
+}
+.footer{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+ 
+  padding: 2em;
+  
+ 
+}
+.flink{
+  display: block;
+  block-size: 1em;
+}
+.addr{
+  text-align: left;
+}
+i{
+  margin-right: 1em;
+}
