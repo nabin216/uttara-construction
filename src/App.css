@@ -613,9 +613,10 @@ i{
     padding: 0em 0;
     width: 100%;
     /* margin-right: 2em; */
-  margin-top: -8em;
+ 
   }
   .para{
+    margin-top: -2em;
       font-size: 1.1em;
       color: rgba(0, 0, 0, 0.589);
       font-weight: 600;
