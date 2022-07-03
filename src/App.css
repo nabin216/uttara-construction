@@ -612,7 +612,7 @@ i{
     padding: 0em 0;
     width: 100vw;
     /* margin-right: 2em; */
-  
+  margin-top: -1em;
   }
   .para{
       font-size: 1.1em;
@@ -632,7 +632,6 @@ i{
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
-    column-gap: 1em;
     row-gap: 1em;
   }
 }
