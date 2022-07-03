@@ -582,4 +582,7 @@ i{
     text-align: left;
     margin-top: 9em;
   }
+  #tag{
+    margin-left: 0;
+  }
 }
