@@ -582,6 +582,7 @@ i{
   /* home page tagline */
   #tag{
     margin-left: -1em;
+    font-size: 30px;
   }
   /* about */
   .flexhero{
@@ -592,14 +593,14 @@ i{
 
   }
   .image{
-    margin: 2em 0.5em;
+    margin: 2em 0em;
   }
   #img{
   height: 400px;
   width: 400px;
   }
   .text{
-    padding: 2em 0;
+    padding: 0.5em 0;
     width: 100vw;
     margin-right: 2em;
   
@@ -608,6 +609,7 @@ i{
       font-size: 1.1em;
       color: rgba(0, 0, 0, 0.589);
       font-weight: 600;
+      padding: 0 1em;
   
   }
 }
