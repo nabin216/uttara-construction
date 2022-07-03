@@ -549,3 +549,17 @@ grid-template-columns: repeat(3,1fr);
 i{
   margin-right: 1em;
 }
+
+@media screen and (max-width:600px) {
+  .foot{
+    font-size: 0.6rem;
+
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: auto;
+    float: left;
+    padding-left: 1.5em;
+  }
+  
+}
