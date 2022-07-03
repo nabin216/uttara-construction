@@ -632,5 +632,7 @@ i{
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
+    column-gap: 1em;
+    row-gap: 1em;
   }
 }
