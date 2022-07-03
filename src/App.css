@@ -624,11 +624,12 @@ i{
 
   }
   .link{
-    margin: 1em 1em;
-  }
-  #serv{
+    margin: 3em 2em;
     margin-bottom: 2em;
   }
+  /* #serv{
+   
+  } */
   .heading{
     font-size:1.3em ;
   }
