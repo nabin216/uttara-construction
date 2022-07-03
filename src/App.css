@@ -574,15 +574,24 @@ i{
     text-align: center;
     padding-bottom: 1em;
   }
-  .flink{
-
-   
-  }
+  
   .addr{
     text-align: left;
     margin-top: 9em;
   }
+  /* home page tagline */
   #tag{
-    margin-left: 0;
+    margin-left: 1em;
+  }
+  /* about */
+  .flexhero{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+   
+  /* margin-left: 0;
+  margin-top: 1em;
+  padding-top: 1.5em; */
   }
 }
