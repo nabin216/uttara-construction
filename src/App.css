@@ -581,7 +581,7 @@ i{
   }
   /* home page tagline */
   #tag{
-    margin-left: -1em;
+    margin-left: 0.5em;
     font-size: 30px;
   }
   /* about */
@@ -596,13 +596,13 @@ i{
     margin: 2em 0em;
   }
   #img{
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   }
   .text{
-    padding: 0.5em 0;
+    padding: 0em 0;
     width: 100vw;
-    margin-right: 2em;
+    /* margin-right: 2em; */
   
   }
   .para{
