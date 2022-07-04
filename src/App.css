@@ -401,19 +401,22 @@ footer span i {
 .getstart{
 margin-top: 2em;
 text-align: center;
+cursor: pointer;
 
 
 }
-#start{
+#star{
   text-align: center;
   background-color: darkblue;
   color: white;
   margin-top: 2em;
   font-size: 0.4em;
+  cursor: pointer;
   padding: 1em;
   border: transparent 2px solid;
   border-radius: 16px;
 }
+
 .heading{
 
 color: darkblue;
@@ -428,7 +431,7 @@ color: darkblue;
   color: white;
 }
 #abouts{
-  /* background-color:#ddd; */
+
   background-color: #b8c6db;
 background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 
@@ -474,7 +477,7 @@ margin: 2em 4em;
 
 }
 .link{
-  margin-top: 3em;
+  margin-top: 2em;
 }
 #serv{
   background-color: blue;
@@ -484,7 +487,8 @@ margin: 2em 4em;
   text-decoration: none;
   border: transparent 2px;
   border-radius: 16px;
-  box-shadow: 0 6px 6px rgba(0,0,0,0.2);;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
 
 }
 #serv:hover{
@@ -640,4 +644,7 @@ i{
     align-items: center;
     row-gap: 1em;
   }
+}
+html{
+  scroll-behavior: smooth;
 }

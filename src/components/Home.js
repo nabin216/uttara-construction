@@ -25,18 +25,29 @@ export default function Home() {
             <p>Architect and Construction</p>
         </div>
         <div class="tagline">
-        <p id='tag'>Dream . Discuss . Design </p>
-        
+        {/* <p id='tag'>
+        <div class="animated-title">
+           <div class="text-top">
+            <div>
+             <span>Dream</span>
+             <span>Discuss</span>
+           </div>
+          </div>
+        <div class="text-bottom">
+           <div>Design!</div>
+          </div>
+        </div>
+        </p>
+         */}
+         <p id='tag'>Dream . Discuss . Design </p>
         </div>
         <div className="getstart">
-        <a href="#abouts" id='start'>Get Started </a>
+        <a href="#abouts" id='star'>Get Started </a>
         </div>
     </div>
 </div>
 
-    
   </h1>
-
 </div>
 
 <About />
