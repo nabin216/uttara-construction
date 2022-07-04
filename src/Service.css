@@ -44,7 +44,14 @@ html{
 }
 
 @media screen and (max-width:600) {
-
+    .service{
+        background-image: url("https://images.squarespace-cdn.com/content/v1/55bebb51e4b036c52ebe8c45/1479468566289-HXGNAX270XGVGWUONS0G/grand+living+room+glass+wall?format=500whttps://i.pinimg.com/originals/ab/57/e7/ab57e7728808d24d6d04570aa9b0808b.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        
+    } 
     .explore h2{
    
     color: white;
