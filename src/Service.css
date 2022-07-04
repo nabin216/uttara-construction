@@ -45,7 +45,7 @@ html{
 
 @media screen and (max-width:600px) {
     .service{
-        background-image: url("https://images.squarespace-cdn.com/content/v1/55bebb51e4b036c52ebe8c45/1479468566289-HXGNAX270XGVGWUONS0G/grand+living+room+glass+wall?format=500whttps://i.pinimg.com/originals/ab/57/e7/ab57e7728808d24d6d04570aa9b0808b.jpg");
+
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -57,7 +57,7 @@ html{
     color: white;
     background-color: rgba(128, 128, 128, 0.094);
     margin-top: 10%;
-    /* margin-left: 20%; */
+    margin-left: 0%;
     padding: 0.3em;
     font-size: 1.5em;
     font-weight: bold;
@@ -68,11 +68,12 @@ html{
 #arroww{
 text-align: center;
     margin-top: 5em;
+    margin-right: 0;
     height: 8em;
     background-color: aliceblue;
     border-radius: 50%;
 }
 .gridsec{
-    margin-top: 30em;
+    margin-top: 40em;
 }
 }
