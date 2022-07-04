@@ -40,5 +40,29 @@ html{
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: #dbe7fc;
+
+}
+
+@media screen and (max-width:600) {
+
+    .explore h2{
    
+    color: white;
+    background-color: rgba(128, 128, 128, 0.094);
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+#arroww{
+    float: left;
+    margin-right: 25em;
+    margin-top: 5em;
+    height: 8em;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
 }
