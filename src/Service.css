@@ -50,10 +50,11 @@ html{
     color: white;
     background-color: rgba(128, 128, 128, 0.094);
     margin-top: 10%;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     padding: 0.3em;
     font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
     
 }
 
@@ -63,5 +64,8 @@ text-align: center;
     height: 8em;
     background-color: aliceblue;
     border-radius: 50%;
+}
+.gridsec{
+    margin-top: 30em;
 }
 }
