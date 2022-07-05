@@ -1,9 +1,15 @@
 import React from 'react'
 import img1 from '../assets/img3.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 export default function Card3() {
   return (
     <div>
-    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 <a href="/">
     <img class="rounded-t-lg" src={img1} alt="" />
 </a>

@@ -1,10 +1,13 @@
 import React from 'react'
 import img1 from '../assets/img2.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 export default function Card2() {
   return (
     <div>
-    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div data-aos="zoom-in" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 <a href="/">
     <img class="rounded-t-lg" src={img1} alt="" />
 </a>
