@@ -133,7 +133,7 @@ body{
             grid-template-columns: auto;
             width: 100vw;
             height: 100vh;
-             grid-gap: 35px;
+             grid-gap: 40px;
 
         }    
         .seccard{
