@@ -4,7 +4,10 @@ import Card from './Card'
 import Footer from './Footer'
 import Icard1 from './Icard1'
 import Nav from './Nav'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 
 export default function Home() {
   return (
@@ -24,7 +27,9 @@ export default function Home() {
             <div class="block"></div>
             <p>Architect and Construction</p>
         </div>
-        <div class="tagline">
+        <div class="tagline" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         {/* <p id='tag'>
         <div class="animated-title">
            <div class="text-top">
