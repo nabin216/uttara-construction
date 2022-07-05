@@ -212,7 +212,7 @@ body, html {
 /*     color: #fccaff;
     text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
       0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-      text-shadow: 0 0 5px #c5b1e480, 0 0 10px #00b7ff92, 0 0 10px #d400ffad, 0 0 40px #d400ffad, 0 0 60px #ff0000, 0 0 10px #9bcaed, 0 0 98px #68c8f1;
+      text-shadow: 0 0 5px #c5b1e480, 0 0 10px #00b7ff92, 0 0 10px #d400ffad, 0 0 40px #d400ffad, 0 0 60px #0022ff3d, 0 0 10px #9bcaed, 0 0 98px #68c8f1;
     color: darkblue;
   }
 }
@@ -549,9 +549,17 @@ grid-template-columns: repeat(3,1fr);
   
  
 }
+.fp{
+  color: white;
+  font-weight: bold;
+
+}
 .flink{
   display: block;
   block-size: 1em;
+}
+.flink a:hover{
+  color: #f9f4f4;
 }
 .addr{
   text-align: left;
