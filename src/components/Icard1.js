@@ -3,7 +3,10 @@ import img4 from '../assets/img4.png'
 import img5 from '../assets/img5.png'
 import img6 from '../assets/img6.png'
 import img7 from '../assets/img7.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 export default function Icard1() {
   return (
     <div>
@@ -18,8 +21,8 @@ export default function Icard1() {
       <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
     </div>
     <center>
-    <div class="flex flex-wrap -m-4 pb-10" id='flexint'>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
+    <div class="flex flex-wrap -m-4 pb-10" id='flexint' data-aos="zoom-in">
+      <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="zoom-in">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class=" rounded  object-cover object-center mb-6" id='interior' src={img4} height={400} alt="content" />
           <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -27,7 +30,7 @@ export default function Icard1() {
           <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="zoom-in">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" id='interior' src={img5} height={400} width={400} alt="content" />
           <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -35,7 +38,7 @@ export default function Icard1() {
           <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="zoom-in">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" id='interior' src={img6} height={400} alt="content" />
           <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -43,7 +46,7 @@ export default function Icard1() {
           <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
-      <div class="xl:w-1/4 md:w-1/2 p-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="zoom-in">
         <div class="bg-gray-100 p-6 rounded-lg">
           <img class="h-40 rounded w-full object-cover object-center mb-6" id='interior' src={img7} height={400} alt="content" />
           <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
