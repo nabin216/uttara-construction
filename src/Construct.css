@@ -136,4 +136,8 @@ body{
              grid-gap: 25px;
 
         }    
+        .seccard{
+            height: 100vh;
+        }
+        
    }

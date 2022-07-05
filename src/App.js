@@ -17,7 +17,8 @@ function App() {
           <Helmet>
               <title>Home Page</title>
               <meta name='description' content='Shreeram Architect and construction website' />
-              <meta name='keyword' content='Architecture, elevation, Vastu, Website, Shreram Constructions' />
+              <meta name='keyword' content='Architecture, elevation, Vastu, Website, Shreram Constructions in Mandsaur' />
+              <meta name="author" content="Shreeram Architect and Construction"></meta>
         </Helmet>
       <Routes >
     
