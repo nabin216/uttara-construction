@@ -21,7 +21,7 @@ export default function About() {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, cum quia. Aut facere doloremque consequuntur adipisci illo quae quo earum beatae modi? Ducimus modi a molestiae repellat eligendi distinctio nihil sapiente. Omnis voluptatum tenetur ex error dicta nisi placeat, illum officia, deleniti atque exercitationem aspernatur. Ut sapiente ducimus eos laboriosam animi molestias vel voluptate accusamus magni in optio accusantium, odio harum consectetur possimus quod suscipit deleniti? Rem pariatur fugiat iusto culpa. Quo asperiores, quaerat veritatis similique non praesentium doloremque nemo.
    </p>
    <div className="link">
-   <a href="/" id='serv'>Services</a>
+   <a href="./Service" id='serv'>Services</a>
    </div>
     </div>
 </div>

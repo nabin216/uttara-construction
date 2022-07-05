@@ -17,7 +17,7 @@ import permit from '../svgicons/permit.png'
 
 export default function Service() {
   return (
-    <div className="service">
+    <div className="service" id='offer'>
         <Nav />
         <section >
             <div className="explore">
