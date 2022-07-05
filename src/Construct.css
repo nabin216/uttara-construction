@@ -133,5 +133,7 @@ body{
             grid-template-columns: auto;
             width: 100vw;
             height: 100vh;
+             grid-gap: 25px;
+
         }    
    }
