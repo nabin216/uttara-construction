@@ -47,8 +47,11 @@ export default function Construct() {
  
   </div>
   </div>
-     <Footer />  
+  <div> <Footer /> 
     </div>
+    </div>
+   
+    
   )
 }
 
