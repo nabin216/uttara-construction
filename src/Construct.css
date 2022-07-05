@@ -139,5 +139,8 @@ body{
         .seccard{
             height: 100vh;
         }
+        #cfoot{
+            margin-top: 30em;
+        }
         
    }
