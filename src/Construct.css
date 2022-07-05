@@ -133,14 +133,14 @@ body{
             grid-template-columns: auto;
             width: 100vw;
             height: 100vh;
-             grid-gap: 25px;
+             grid-gap: 35px;
 
         }    
         .seccard{
             height: 100vh;
         }
         #cfoot{
-            margin-top: 30em;
+            margin-top: 42em;
         }
         
    }
