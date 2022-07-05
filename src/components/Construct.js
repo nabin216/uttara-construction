@@ -3,6 +3,7 @@ import Nav from './Nav'
 import video1 from '../videos/video1.mp4'
 import video2 from '../videos/video2.mp4'
 import video3 from '../videos/video3.mp4'
+import Footer from './Footer'
 
 export default function Construct() {
   return (
@@ -11,6 +12,8 @@ export default function Construct() {
         <Nav />
         </div>
         <div className="seccard">
+            <p className="context">Take a glance at some of the construction sites</p>
+            <h3>Construction of buildings or interior of house, whatever it is , Our Labour force makes it easy and affordable with punctuality in completing the project. </h3>
   <div class="box">
       <div class="card">
         <div class="imgBx">
@@ -44,7 +47,7 @@ export default function Construct() {
  
   </div>
   </div>
-       
+     <Footer />  
     </div>
   )
 }
