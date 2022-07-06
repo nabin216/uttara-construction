@@ -1,5 +1,5 @@
 import React from 'react'
-import 'flowbite';
+// import 'flowbite';
 import logo from '../assets/logo.jpeg'
 import { Navbar } from 'flowbite-react';
 export default function Nav() {
