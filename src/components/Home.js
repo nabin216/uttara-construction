@@ -31,20 +31,6 @@ export default function Home() {
         <div class="tagline" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-        {/* <p id='tag'>
-        <div class="animated-title">
-           <div class="text-top">
-            <div>
-             <span>Dream</span>
-             <span>Discuss</span>
-           </div>
-          </div>
-        <div class="text-bottom">
-           <div>Design!</div>
-          </div>
-        </div>
-        </p>
-         */}
          <p id='tag'>Dream . Discuss . Design </p>
         </div>
         <div className="getstart">

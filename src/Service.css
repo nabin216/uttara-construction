@@ -76,7 +76,9 @@ text-align: center;
     border-radius: 50%;
 }
 .gridsec{
-    margin-top: 38em;
+    margin-top: 36em;
     min-height: 100vh;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
 }
 }

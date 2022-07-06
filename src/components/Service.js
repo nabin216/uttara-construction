@@ -27,6 +27,7 @@ export default function Service() {
            <a href="#gridd"><img src={arrow} alt="hii" height={50} id='arroww' /></a>
             </div>
         </section>
+        {/* card section */}
         <section class="gridsec text-gray-600 body-font" id='gridd'>
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap">
@@ -58,6 +59,7 @@ export default function Service() {
       </div>
     </div>
   </div>
+  {/* services */}
   <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
