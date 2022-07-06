@@ -6,6 +6,7 @@ import Icard1 from './Icard1'
 import Nav from './Nav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'flowbite';
 
 AOS.init();
 
