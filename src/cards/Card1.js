@@ -7,9 +7,7 @@ export default function Card1() {
   return (
     <div>
         
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <a href="/">
         <img class="rounded-t-lg" src={img1} alt="" />
     </a>

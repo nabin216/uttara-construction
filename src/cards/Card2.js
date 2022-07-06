@@ -7,7 +7,7 @@ AOS.init();
 export default function Card2() {
   return (
     <div>
-    <div data-aos="zoom-in" class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div  class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
 <a href="/">
     <img class="rounded-t-lg" src={img1} alt="" />
 </a>
