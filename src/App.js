@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import './Service.css'
+import 'flowbite'
 import './Construct.css'
 // import Card1 from './cards/Card1';
 import About from './components/About';
