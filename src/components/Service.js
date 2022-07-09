@@ -32,7 +32,8 @@ export default function Service() {
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Showcasing the Best of all times</h1>
-      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Any organization or a company is known fot it's work. Shreeram Constructions have build soo many dreams till date and we are proud of the fact! We don't just make home a place to live, but also enrich its interior by our designs. </p>
+      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+Organizations or companies are renowned for their work. The reason we are proud of Shreeram Constructions is the fact that they have built many dreams! With our designs, we enrich the interior of your home in addition to making it a place to live. </p>
     </div>
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
@@ -60,7 +61,7 @@ export default function Service() {
     </div>
   </div>
   {/* services */}
-  <section class="text-gray-600 body-font">
+  <section class=" servicesec text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
