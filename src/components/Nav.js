@@ -5,15 +5,16 @@ import { Navbar } from 'flowbite-react';
 export default function Nav() {
   return (
     <div>
+      
      <Navbar
   fluid={true}
-  rounded={true}
+  rounded={false} 
 >
   <Navbar.Brand href="https://shreeram-website.vercel.app/">
     <img
       src={logo} 
       className="mr-2 h-20 sm:h-9"
-      alt="Flowbite Logo"
+      alt="Shreeram Logo"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Shreeram
@@ -27,9 +28,9 @@ export default function Nav() {
     >
       Home
     </Navbar.Link>
-    <Navbar.Link href="/about">
+    {/* <Navbar.Link href="/about">
       About
-    </Navbar.Link>
+    </Navbar.Link> */}
     <Navbar.Link href="/service">
       Services
     </Navbar.Link>
@@ -44,6 +45,3 @@ export default function Nav() {
     </div>
   )
 }
-
-{/* <img src={logo} className="mr-2 h-20 sm:h-9" alt="Flowbite Logo" /> */}
-// https://shreeram-website.vercel.app/"

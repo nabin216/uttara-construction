@@ -7,13 +7,16 @@ import Nav from './Nav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'flowbite';
+import PageProgress from 'react-page-progress';
 
 AOS.init();
 
 export default function Home() {
   return (
     <div>
+
          <Nav />
+         <PageProgress color={'darkblue'} height={5} />
         <div class="center">
   <h1 class="center__text glitch is-glitching" >
   <div class="containerr">

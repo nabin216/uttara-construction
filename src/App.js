@@ -10,23 +10,21 @@ import Home from './components/Home';
 import Service from './components/Service';
 import Contact from './components/Contact';
 import Construct from './components/Construct';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
+import PageProgress from 'react-page-progress';
 
-function App() {
+
+function App(){
   return (
+    
     <div>
-          <Helmet>
-              <title>Home Page</title>
-              <meta name='description' content='Shreeram Architect and construction website' />
-              <meta name='keyword' content='Architecture, elevation, Vastu, Website, Shreram Constructions in Mandsaur' />
-              <meta name="author" content="Shreeram Architect and Construction"></meta>
-        </Helmet>
+      <PageProgress color={'darkblue'} height={5} />
+
       <Routes >
     
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
-        {/* <Route path='/service' element={<Service />} /> */}
         <Route path='/construction' element={<Construct />} />
         <Route path='/contact' element={<Contact />} />
 
