@@ -18,7 +18,7 @@ function App(){
   return (
     
     <div>
-      <PageProgress color={'darkblue'} height={5} />
+      <PageProgress color={'skyblue'} height={5} />
 
       <Routes >
     

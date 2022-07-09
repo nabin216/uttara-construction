@@ -16,7 +16,7 @@ export default function Home() {
     <div>
 
          <Nav />
-         <PageProgress color={'darkblue'} height={5} />
+         <PageProgress color={'blue'} height={5} />
         <div class="center">
   <h1 class="center__text glitch is-glitching" >
   <div class="containerr">
