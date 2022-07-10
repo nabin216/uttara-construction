@@ -3,6 +3,7 @@ import '../Contact.css'
 import Nav from './Nav';
 // iconify icons
 import { Icon } from '@iconify/react';
+import Footer from './Footer';
 
 function Contact(){
     return (
@@ -60,6 +61,7 @@ function Contact(){
             </div>
             </div>
             </div>
+            <Footer />
      </div>
     )
 }
