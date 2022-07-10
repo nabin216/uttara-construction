@@ -1,0 +1,129 @@
+#contactsection{
+ height: 100vh;
+ width: 100vw;
+ /* background-image: linear-gradient(90deg,rgba(2, 25, 70, 0.689) 60%, rgba(173, 235, 247, 0.438) 34%); */
+background-image: url(https://t4.ftcdn.net/jpg/03/08/06/89/360_F_308068944_xzDFq7HhbAJ4tdO0UPyk1vLmSojgEmZ2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.conflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.concontainer{
+   margin: 5.4em 4em;
+   background-image: linear-gradient(90deg,  rgba(173, 235, 247, 0.438) 67%, rgba(2, 25, 70, 0.689) 30%);
+   background-size: cover;
+   height: 520px;
+   width: 900px;
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12);
+   display: flex;
+   gap: 10em;
+}
+
+.write{
+    color: white;
+    background-color: rgba(2, 25, 70, 0.9);
+    padding: 0.7em;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.formblock{
+    /* display: block; */
+    padding: 0em 3em;
+}
+input[type=text], input[type=email], textarea{
+    background-color: rgba(189, 189, 218, 0.066);
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    border: white solid;
+    width: 23em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    /* 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086), */
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+   outline: none;
+   border: rgba(2, 25, 70, 0.689) solid ;
+    transform: scale3d(1.1em);
+    transition: all ease-in-out 0.3s;
+}
+::-webkit-input-placeholder  {
+    color: white;
+    opacity: 1;
+  }
+.buttoncon{
+    background-color:rgba(2, 25, 70, 0.9) ;
+    padding: 1em;
+    width: 120px;
+    text-align: center;
+    margin-top: 1em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+}
+#button{
+
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+.name, .emaill, .msgg{
+    margin-top: 1em;
+    color: white;
+}
+
+.leftside{
+    float: left;
+  text-align: right;
+  margin-right: 0;
+}
+.contactus{
+    background-color: white;
+    color: darkblue;
+    padding: 0.7em 2.66em;
+    margin-right: 0;
+    /* margin-left: 0; */
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+}
+.phone, .eemail , .address{
+    display: flex;
+    gap: 1em;
+    color: white;
+    padding-right: 0.9em;
+    padding-top: 0.7em;
+    float: left;
+    text-align: left;
+}
+#conicon{
+    font-size: 2.5em;
+    color: white;
+}
+.con-text{
+    padding-top: 0.4em;
+}

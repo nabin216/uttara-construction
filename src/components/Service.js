@@ -14,10 +14,14 @@ import house from '../svgicons/housemap.png'
 import int from '../svgicons/interior.png'
 import structure from '../svgicons/structure.png'
 import permit from '../svgicons/permit.png'
+import PageProgress from 'react-page-progress';
+
 
 export default function Service() {
   return (
     <div className="service" id='offer'>
+      <PageProgress color={'skyblue'} height={5} />
+
         <Nav />
         <section >
             <div className="explore">
