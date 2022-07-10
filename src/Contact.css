@@ -127,7 +127,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
 .con-text{
     padding-top: 0.4em;
 }
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
         .concontainer{
             height: 90vh;
             width: 90vh;
@@ -136,5 +136,10 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
             column-gap: 2em;
             justify-content: center;
             margin: 1em;
+   background-image: linear-gradient(180deg,  rgba(173, 235, 247, 0.438) 67%, rgba(2, 25, 70, 0.689) 30%);
+
+        }
+        input[type=text], input[type=email], textarea{
+            width: 80%;
         }
 }
