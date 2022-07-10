@@ -128,18 +128,22 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
     padding-top: 0.4em;
 }
 @media screen and (max-width:600px) {
+    #contactsection{
+        height: 100%;
+        background-size: cover;
+    }
         .concontainer{
             height: 90vh;
             width: 90vh;
             display: grid;
             grid-template-columns: auto;
-            column-gap: 2em;
+            column-gap: 0.5em;
             justify-content: center;
             margin: 1em;
    background-image: linear-gradient(180deg,  rgba(173, 235, 247, 0.438) 67%, rgba(2, 25, 70, 0.689) 30%);
 
         }
         input[type=text], input[type=email], textarea{
-            width: 80%;
+            width: 95%;
         }
 }
