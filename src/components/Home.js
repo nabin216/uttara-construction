@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'flowbite';
 import PageProgress from 'react-page-progress';
+import Faqs from './Faqs'
 
 AOS.init();
 
@@ -48,7 +49,9 @@ export default function Home() {
 <About />
 <Card />
 <Icard1 />
+<Faqs />
 <Footer />
+
     </div>
 
   )

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "../Navbar.css"
+import wp from "../assets/wp-button.png"
 import logo from "../assets/logo.png"
 
 export default function Nav() {
@@ -7,11 +8,8 @@ export default function Nav() {
 
   return (
     <nav className="navigation">
-        <img src={logo} alt="" height={80} width={80} />
-      <a href="https://shreeram-website.vercel.app/" className="brand-name">
-        Shreeram
-
-      </a>
+        <img src={logo} alt="" height={170} width={170} />
+  
       <button
         className="hamburger"
         onClick={() => {
@@ -49,6 +47,9 @@ export default function Nav() {
           <li>
             <a href="/contact">Contact</a>
           </li>
+      
+           <button id="wpbut"><img src={wp} alt="" height={120} width={120}/></button> 
+       
         </ul>
       </div>
     </nav>

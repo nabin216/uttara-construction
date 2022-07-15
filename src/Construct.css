@@ -1,19 +1,231 @@
 .const{
-    background-image: url(https://blogs.3ds.com/uk/wp-content/uploads/sites/14/2017/01/construction-industry-industrial-revolution.jpg);
-    background-repeat: no-repeat;
+  background-image: url("./assets/constructionbg.png");
+  background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     background-color: antiquewhite;
+    
 }
+.headc{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+margin-top: 2rem;
+text-align: center;
+text-transform: capitalize;
+
+color: #DEE1EA;
+}
+.work{
+  background-image: linear-gradient(#1E242D,#222831);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+}
+#heh3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 54px;
+/* line-height: 81px; */
+/* identical to box height */
+padding-top: 2em;
+padding-left: 1em;
+
+display: flex;
+color: white
+}
+
+ /* working section cards */
+ .work-flex{
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 3em 0 1em 0;
+ }
+   .paln{
+    background: linear-gradient(135deg, #1E242D 0%, #222831 100%);
+box-shadow: -70px 70px 140px rgba(19, 22, 27, 0.2), 70px -70px 140px rgba(19, 22, 27, 0.2), -70px -70px 70px rgba(45, 54, 67, 0.5), 70px 70px 80px rgba(19, 22, 27, 0.5), inset 3px 3px 4px rgba(45, 54, 67, 0.3), inset -3px -3px 4px rgba(19, 22, 27, 0.5);
+border-radius: 24px;
+width: 340px;
+height: 340px;
+   }
+
+#bg{
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.phead{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 2em;
+line-height: 54px;
+padding-top: 1em;
+padding-left: 1em;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+.ppara{
+  width: 294px;
+height: 81px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+line-height: 27px;
+text-transform: capitalize;
+padding-top: 1em;
+padding-left: 1.7em;
+color: #FFFFFF;
+}
+/* Stats  */
+.stat{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 4em;
+
+/* identical to box height */
+margin-top: 2em;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-transform: capitalize;
+
+color: white;
+}
+.stat-flex{
+  display: flex;
+  gap: 8em;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 3em 0 3em 0;
+}
+.statc{
+  background: linear-gradient(135deg, #1E242D 0%, #222831 100%);
+box-shadow: -70px 70px 140px rgba(19, 22, 27, 0.2), 70px -70px 140px rgba(19, 22, 27, 0.2), -70px -70px 140px rgba(45, 54, 67, 0.9), 70px 70px 175px rgba(19, 22, 27, 0.9), inset 3px 3px 4px rgba(45, 54, 67, 0.3), inset -3px -3px 4px rgba(19, 22, 27, 0.5);
+border-radius: 24px;
+width: 340px;
+height: 340px;
+}
+.s-num{
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5em;
+  line-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  text-transform: capitalize;
+  
+  color: #FFFFFF;
+}
+.stathead{
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+  color: #FFFFFF;
+}
+/* testimonial */
+.testtc{
+  width: 650px;
+height: 430px;
+left: 124px;
+top: 2988px;
+
+background: linear-gradient(135deg, #1E242D 0%, #222831 100%);
+box-shadow: -70px 70px 140px rgba(19, 22, 27, 0.2), 70px -70px 140px rgba(19, 22, 27, 0.2), -70px -70px 140px rgba(45, 54, 67, 0.9), 70px 70px 175px rgba(19, 22, 27, 0.9), inset 3px 3px 4px rgba(45, 54, 67, 0.3), inset -3px -3px 4px rgba(19, 22, 27, 0.5);
+border-radius: 24px;
+}
+.quote{
+  font-family: 'Playfair Display SC';
+font-style: normal;
+font-weight: 400;
+font-size: 7em;
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+.tpara{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+line-height: 27px;
+display: flex;
+padding: 0em 4em;
+margin-top: -3em;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.byname{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+/* video cards */
+
 .context{
     color:#04619f ;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bold;
-   
-    text-decoration-style:  underline solid;
-    text-decoration-color: black;
-    text-decoration: underline;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 93px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+text-transform: capitalize;
+padding-top: 1em;
 
 }
 h3{
@@ -144,3 +356,4 @@ body{
         }
         
    }
+
