@@ -48,7 +48,7 @@ export default function Nav() {
             <a href="/contact">Contact</a>
           </li>
       
-           <button id="wpbut"><img src={wp} alt="" height={120} width={120}/></button> 
+           <button id="wpbut" ><a href="https://wa.me/8819806819" target={blank}><img src={wp} alt="" height={120} width={120}/></a></button> 
        
         </ul>
       </div>
