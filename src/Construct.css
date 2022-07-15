@@ -242,7 +242,7 @@ h3{
 body{
   
     background: #2121211a;
-    font-family: sans-serif;
+    
   }
 
   .box{
@@ -348,6 +348,18 @@ body{
              grid-gap: 40px;
 
         }    
+        #heh3{
+          text-align: center;
+          justify-content: center;
+
+        }
+        .work-flex , .stat-flex{
+          display: grid;
+          grid-template-columns: auto;
+          justify-content: center;
+          column-gap: 2em;
+        }
+        
         .seccard{
             height: 100vh;
         }

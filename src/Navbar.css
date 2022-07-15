@@ -103,6 +103,11 @@ ul * {
 #wpbut{
   margin: 0 1.5rem;
 }
+#wpbut:hover{
+  font-weight: 600;
+  font-size: 20px;
+  filter: drop-shadow(8px 8px 19px rgba(41,44,49,0.22));
+}
   @media screen and (max-width: 768px) {
     .hamburger {
       display: block;
