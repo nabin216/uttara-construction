@@ -49,7 +49,7 @@ export default function Home() {
 <About />
 <Card />
 <Icard1 />
-<Faqs />
+
 <Footer />
 
     </div>
