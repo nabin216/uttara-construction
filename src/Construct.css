@@ -399,6 +399,7 @@ body{
         .context{
           font-size: 3em;
           margin: 0 10%;
+          width: 90%;
         }
         .seccard{
             height: fit-content;
