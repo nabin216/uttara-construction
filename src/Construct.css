@@ -362,6 +362,9 @@ body{
           padding-left: 0;
 
         }
+        .headc{
+          font-size: 3.5em;
+        }
         .work-flex , .stat-flex{
           display: grid;
           grid-template-columns: auto;
@@ -394,7 +397,7 @@ body{
         }
         .context{
           font-size: 3em;
-          
+          margin: 0 10%;
         }
         .seccard{
             height: 100vh;
