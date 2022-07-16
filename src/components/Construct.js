@@ -43,7 +43,7 @@ export default function Construct() {
           </div>
        </div>
         <div className="seccard">
-            <p className="context">Take a glance at some <br></br>of the construction sites</p>
+            <div className="context">  Take a glance at some of the construction sites</div>
             {/* <h3>Construction of buildings or interior of house, whatever it is , Our Labour force makes it easy and affordable with punctuality in completing the project. </h3> */}
   <div class="box">
       <div class="card">

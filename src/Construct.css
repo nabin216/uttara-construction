@@ -221,7 +221,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 62px;
 line-height: 93px;
-display: flex;
+/* width: 900px; */
+margin: 0 20%;
+display: grid;
+grid-template-columns: auto;
 align-items: center;
 text-align: center;
 justify-content: center;
@@ -390,7 +393,8 @@ body{
           padding: 0em 1.5em 2em;
         }
         .context{
-          font-size: 3.3em;
+          font-size: 3em;
+          
         }
         .seccard{
             height: 100vh;
