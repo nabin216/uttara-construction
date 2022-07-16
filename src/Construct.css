@@ -398,7 +398,7 @@ body{
         }
         .context{
           font-size: 2.5em;
-          margin: 0 10%;
+          margin-left: 1em;
           width: 96%;
         }
         .seccard{
