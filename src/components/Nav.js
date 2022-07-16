@@ -7,7 +7,7 @@ export default function Nav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
-    <nav className="navigation">
+    <nav className="navigation" >
         <img src={logo} alt="" height={170} width={170} />
   
       <button
