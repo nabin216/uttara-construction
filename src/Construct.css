@@ -380,9 +380,7 @@ body{
         .testtc{
           width: 90%;
           height: 500px;
-          justify-content: center;
-          align-items: center;
-          display: grid;
+          padding-left: 0.5em;
         }
         .tpara{
           font-size: 0.9em;
