@@ -382,7 +382,7 @@ body{
           height: 500px;
           justify-content: center;
           align-items: center;
-
+          display: grid;
         }
         .tpara{
           font-size: 0.9em;
