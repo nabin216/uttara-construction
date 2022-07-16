@@ -365,7 +365,9 @@ body{
           justify-content: center;
           column-gap: 2em;
         }
-        
+        .stat{
+          font-size: 3em;
+        }
         .seccard{
             height: 100vh;
         }
