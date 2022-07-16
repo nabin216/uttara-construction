@@ -370,6 +370,7 @@ body{
           grid-template-columns: auto;
           column-gap: 3em;
           justify-content: center;
+          text-align: center;
           align-items: center;
           justify-items: center;
           /* margin: 3em 0 3em 0; */
