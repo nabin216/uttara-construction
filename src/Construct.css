@@ -365,12 +365,27 @@ body{
           justify-content: center;
           column-gap: 2em;
         }
+        .stat-flex{
+          display: grid;
+          grid-template-columns: auto;
+          column-gap: 3em;
+          justify-content: center;
+          align-items: center;
+          justify-items: center;
+          margin: 3em 0 3em 0;
+        }
         .stat{
           font-size: 3.3em;
         }
         .testtc{
           width: 90%;
-          height: 400px;
+          height: 500px;
+        }
+        .tpara{
+          font-size: 0.9em;
+          /* line-height: 27px; */
+          /* display: flex; */
+          padding: 0em 1.5em 2em;
         }
         .seccard{
             height: 100vh;
