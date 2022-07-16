@@ -389,6 +389,9 @@ body{
           /* display: flex; */
           padding: 0em 1.5em 2em;
         }
+        .context{
+          font-size: 3.3em;
+        }
         .seccard{
             height: 100vh;
         }

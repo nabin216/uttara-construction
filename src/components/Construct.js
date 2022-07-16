@@ -19,7 +19,7 @@ export default function Construct() {
     <div id='body'>
         <div className="const">
         <Nav />
-        <div className="headc"> We’re help to build your <br></br> dream professionaly</div>
+        <div className="headc"> We’re here to build your <br></br> dream professionaly</div>
         </div>
        {/* how it works */}
        <div className="work">
@@ -36,7 +36,7 @@ export default function Construct() {
               <Stat2 />
               <Stat3 />
           </div>
-          <div className="stat">Testimonals</div>
+          <div className="stat">Testimonials</div>
           <div className="stat-flex">
               <Test1 />
               <Test2 />
