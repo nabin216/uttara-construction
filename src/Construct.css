@@ -401,7 +401,8 @@ body{
           margin: 0 10%;
         }
         .seccard{
-            height: 100vh;
+            height: fit-content;
+            background-size: cover;
         }
         #cfoot{
             margin-top: 42em;
