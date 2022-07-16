@@ -366,7 +366,11 @@ body{
           column-gap: 2em;
         }
         .stat{
-          font-size: 3em;
+          font-size: 3.3em;
+        }
+        .testtc{
+          width: 90%;
+          height: 400px;
         }
         .seccard{
             height: 100vh;
