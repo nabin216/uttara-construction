@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 .App {
   text-align: center;
   font-family: 'Poppins';
@@ -494,10 +495,12 @@ margin: 2em 4em;
   font-size: 1.2em;
   padding: 0.8em 1em;
   text-decoration: none;
+  z-index: 1;
   border: transparent 2px;
   border-radius: 16px;
   box-shadow: 0 6px 6px rgba(0,0,0,0.2);
   cursor: pointer;
+  
 
 }
 #serv:hover{
@@ -508,9 +511,16 @@ margin: 2em 4em;
               0 16px 16px rgba(0,0,0,0.11), 
               0 32px 32px rgba(0,0,0,0.11);
 transition: all 0.3s ease-in-out;
-  transform: scale(1.2);
-  border: rgba(255, 255, 255, 0.066) 4px solid;
+transform: scale(1.2);
+  /* border: rgba(255, 255, 255, 0.066) 2px solid; */
+  background-color: #6a93cb;
+  background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+  color: #111;
 
+
+}
+.link:hover{
+  transform: scale(1.01)
 }
 /* card */
 .flexcard{
