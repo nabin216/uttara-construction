@@ -47,7 +47,7 @@ function Contact(){
                         <Icon icon="clarity:email-line" id='conicon'/>
                     </div>
                     <div className="con-text">
-                     Yashfarkya@gmail.com
+                    <a href="mailto:yashfarkya@gmail.com">Yashfarkya@gmail.com</a> 
                     </div>
                 </div>
                 <div className="phone">

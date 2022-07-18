@@ -36,13 +36,17 @@ export default function Footer() {
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                yashfarkya@gmail.com
+                <a href="mailto:yashfarkya@gmail.com">Yashfarkya@gmail.com</a> 
               </p>
               <p>
-                <i className='fas fa-phone me-3'></i> 8989-614-646
+                <i className='fas fa-phone me-3'></i>                      
+                <a href="tel:+91 8989-614-646">8989-614-646</a> 
+
               </p>
               <p>
-                <i className='fas fa-print me-3'></i> 8989-614-646
+                <i className='fas fa-print me-3'></i>                     
+                 <a href="tel:+91 8989-614-646">8989-614-646</a> 
+
               </p>
             </div>
           
