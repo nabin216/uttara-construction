@@ -1,4 +1,5 @@
 import React from 'react'
+import Count from '../Count'
 
 export default function Footer() {
   return (
@@ -9,6 +10,7 @@ export default function Footer() {
                 <p className="fp">
                     SHREERAM ARCHITECT AND CONSTRUCTION<br></br>We design your dreams!
                 </p>
+                <Count />
             </div>
             <div className="flink">
             <h6 className='text-uppercase fw-bold mb-4'>Links</h6>

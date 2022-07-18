@@ -10,6 +10,7 @@ import 'flowbite';
 import PageProgress from 'react-page-progress';
 
 
+
 AOS.init();
 
 export default function Home() {
@@ -49,7 +50,6 @@ export default function Home() {
 <About />
 <Card />
 <Icard1 />
-
 <Footer />
 
     </div>
