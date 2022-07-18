@@ -126,7 +126,7 @@ ul * {
       .navigation-menu ul {
         /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
         position: absolute;
-        
+        overflow: hidden;
         top: 80px;
         left: 0;
         /* // stacks the li tags vertically  */
