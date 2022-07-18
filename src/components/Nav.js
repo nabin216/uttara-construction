@@ -36,19 +36,19 @@ export default function Nav() {
       >
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a id="hoveer" href="/">Home</a>
           </li>
           <li>
-            <a href="/service">Services</a>
+            <a id="hoveer" href="/service">Services</a>
           </li>
           <li>
-            <a href="/construction">Construction</a>
+            <a id="hoveer" href="/construction">Construction</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a id="hoveer" href="/contact">Contact</a>
           </li>
       
-           <button id="wpbut" ><a href="https://wa.me/918989614646" target={"_blank"} rel="noopener noreferrer"><img src={wp} alt="" height={120} width={120}/></a></button> 
+           <button id="wpbut" ><a href="https://wa.me/918989614646" target={"_blank"} rel="noopener noreferrer"><img src={wp} alt="" height={150} width={120}/></a></button> 
        
         </ul>
       </div>

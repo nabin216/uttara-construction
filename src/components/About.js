@@ -12,7 +12,7 @@ export default function About() {
     <div className="image" data-aos="zoom-in-right"
                     data-aos-duration="500">
         <img id= 'img' src={profile} alt=""  height={500}/>
-        <center><h2 className="name">Er. Yash Farkya</h2>
+        <center><h2 className="nam">Er. Yash Farkya</h2>
         <h3 id='h33'>Founder Chairman</h3></center>
     </div>
     <div className="text" data-aos="zoom-in-left"
