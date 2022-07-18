@@ -528,6 +528,7 @@ grid-template-columns: repeat(3,1fr);
 .flink{
   display: block;
   block-size: 1em;
+  
 }
 .flink a:hover{
   color: #f9f4f4;
