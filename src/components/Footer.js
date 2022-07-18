@@ -39,10 +39,10 @@ export default function Footer() {
                 yashfarkya@gmail.com
               </p>
               <p>
-                <i className='fas fa-phone me-3'></i> 8989614646
+                <i className='fas fa-phone me-3'></i> 8989-614-646
               </p>
               <p>
-                <i className='fas fa-print me-3'></i> 8989614646
+                <i className='fas fa-print me-3'></i> 8989-614-646
               </p>
             </div>
           
