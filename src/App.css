@@ -632,7 +632,7 @@ i{
     }
     @keyframes image {
       0% {
-        background-image: url('https://media.istockphoto.com/photos/mock-up-poster-frame-in-modern-interior-background-living-room-style-picture-id1354262369?b=1&k=20&m=1354262369&s=170667a&w=0&h=NSa2jV-7TGl_Kz-8RW7A_fcokos0qNPaXr8mCC_MpRs=');
+        background-image: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&w=1000&q=80');
       }
       50% {
         background-image: url('./assets/wallpaper.jpg');
