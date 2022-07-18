@@ -27,8 +27,8 @@ html{
     border: 8px solid transparent;
     animation: borde infinite 5s alternate forwards;
     background-image:
-        linear-gradient(white, rgba(255, 255, 255, 0.158)),
-        linear-gradient(180deg, cornflowerblue, rgb(0, 96, 128) 50%, rgb(100, 105, 237));
+        linear-gradient(white, rgba(255, 255, 255, 0.558)),
+        linear-gradient(180deg, rgb(72, 103, 161), rgb(0, 96, 128) 50%, rgb(100, 105, 237));
 
       background-repeat: no-repeat;
       background-size: 100% 100%, 100% 200%;
@@ -73,8 +73,7 @@ html{
     } 
     .explore h2{
    
-    color: white;
-    background-color: rgba(128, 128, 128, 0.094);
+
     margin-top: 15%;
     margin-left: 0%;
     padding: 0.3em;
