@@ -59,7 +59,6 @@ body, html {
   align-items: center;
   height: 70px;
   text-align: center;
-  overflow: hidden;
 }
 .containerr .box .title .block {
   width: 0%;
@@ -68,8 +67,6 @@ body, html {
   position: absolute;
   animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
-  overflow: hidden;
-
 }
 .containerr .box .title h1 {
   font-family: "Poppins";
@@ -84,8 +81,6 @@ body, html {
   display: flex;
   align-items: baseline;
   position: relative;
-  overflow: hidden;
-
 }
 .containerr .box .title h1 span {
   width: 0px;
@@ -101,8 +96,6 @@ body, html {
   margin-top: -10px;
   position: absolute;
   bottom: 13px;
-  overflow: hidden;
-
   right: -12px;
 }
 .containerr .box .role {
