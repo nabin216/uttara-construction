@@ -140,7 +140,7 @@ ul * {
         background-color: rgba(4, 38, 51);;
         border-top: 1px solid black;
       }
-      .navigation-menu li a {
+      .navigation-menu li #hoveer {
         color: white;
         /* // increases the surface area of the anchor tag to span the full width of the menu */
         width: 100%;
