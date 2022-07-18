@@ -544,7 +544,7 @@ i{
 }
 
 @media screen and (max-width:600px) {
-  .box{
+  .containerr {
     margin-top: -2em;
   }
   .foot{
