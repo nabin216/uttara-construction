@@ -15,16 +15,16 @@ export default function Footer() {
             <div className="flink">
             <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
                 <div>
-                <a href="/">Home</a>
+                <a id='fleft' href="/">Home</a>
                 </div>
                 <div>
-                <a href="/Service">Services</a>
+                <a id='fleft' href="/Service">Services</a>
                 </div>
                 <div>
-                <a href="http://">Instagram</a>
+                <a id='fleft' href="http://">Instagram</a>
                 </div>
                 <div>
-                <a href="http://">Facebook</a>
+                <a id='fleft' href="http://">Facebook</a>
                 </div>
 
             </div>
