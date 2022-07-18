@@ -33,14 +33,15 @@ export default function Home() {
             <div class="block"></div>
             <p>Architect and Construction</p>
         </div>
+        <div className="getstart">
+        <a href="#abouts" id='star'>Get Started </a>
+        </div>
         <div class="tagline" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
          <p id='tag'>Dream . Discuss . Design </p>
         </div>
-        <div className="getstart">
-        <a href="#abouts" id='star'>Get Started </a>
-        </div>
+        
     </div>
 </div>
 

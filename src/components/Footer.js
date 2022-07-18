@@ -32,20 +32,20 @@ export default function Footer() {
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <i className='fas fa-home me-3'></i>44, Opposit Dak Bunglow <br></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pipliya Mandi, Mandsaur(M.P)
+                <i id='foothover' className='fas fa-home me-3'></i>44, Opposit Dak Bunglow <br></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pipliya Mandi, Mandsaur(M.P)
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                <a href="mailto:yashfarkya@gmail.com">Yashfarkya@gmail.com</a> 
+                <a id='foothover' href="mailto:yashfarkya@gmail.com">yashfarkya@gmail.com</a> 
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i>                      
-                <a href="tel:+91 8989-614-646">8989-614-646</a> 
+                <a id='foothover' href="tel:+91 8989-614-646">8989-614-646</a> 
 
               </p>
               <p>
                 <i className='fas fa-print me-3'></i>                     
-                 <a href="tel:+91 8989-614-646">8989-614-646</a> 
+                 <a id='foothover' href="tel:+91 8989-614-646">8989-614-646</a> 
 
               </p>
             </div>

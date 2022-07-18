@@ -81,6 +81,7 @@ body, html {
   display: flex;
   align-items: baseline;
   position: relative;
+  padding-left: 10px;
 }
 .containerr .box .title h1 span {
   width: 0px;
@@ -337,7 +338,7 @@ body, html {
  
 }
 .getstart{
-margin-top: 2em;
+margin-top: 1em;
 text-align: center;
 cursor: pointer;
 
@@ -347,8 +348,8 @@ cursor: pointer;
   text-align: center;
   background-color: darkblue;
   color: white;
-  margin-top: 2em;
-margin-left: -0.6em;
+  margin-top: 0em;
+margin-left: -2em;
   font-size: 0.4em;
 font-weight: 700;
  
@@ -473,9 +474,7 @@ transform: scale(1.2);
   font-weight: 700;
 
 }
-.link:hover{
-  transform: scale(1.01)
-}
+
 /* card */
 .flexcard{
   display: grid;
@@ -533,8 +532,9 @@ grid-template-columns: repeat(3,1fr);
   block-size: 1em;
   
 }
-.flink a:hover{
+.flink a:hover, #foothover:hover{
   color: #f9f4f4;
+  font-weight: 700;
 }
 .addr{
   text-align: left;
