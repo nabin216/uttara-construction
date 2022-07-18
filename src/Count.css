@@ -8,3 +8,8 @@
     display: flex;
     font-weight: 700;
 }
+@media screen and (max-width:600px) {
+.view{
+    margin: 0.5em 0;
+}
+}
