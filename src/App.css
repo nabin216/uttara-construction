@@ -630,6 +630,18 @@ i{
     display: grid;
     grid-template-columns: auto ;
     }
+    @keyframes image {
+      0% {
+        background-image: url('https://media.istockphoto.com/photos/mock-up-poster-frame-in-modern-interior-background-living-room-style-picture-id1354262369?b=1&k=20&m=1354262369&s=170667a&w=0&h=NSa2jV-7TGl_Kz-8RW7A_fcokos0qNPaXr8mCC_MpRs=');
+      }
+      50% {
+        background-image: url('./assets/wallpaper.jpg');
+       
+      }
+      100% {
+        background-image: url('https://static.vecteezy.com/system/resources/previews/004/365/884/original/empty-white-wooden-wall-on-wooden-floor-interior-design-3d-rendering-free-photo.jpg');
+      }
+    }
 }
 html{
   scroll-behavior: smooth;
