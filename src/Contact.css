@@ -12,7 +12,7 @@ background-repeat: no-repeat;
     justify-content: center;
 }
 .concontainer{
-   margin: 5.4em 4em;
+   margin: 4.5em 4em;
    background-image: linear-gradient(90deg,  rgba(173, 235, 247, 0.438) 67%, rgba(2, 25, 70, 0.689) 30%);
    background-size: cover;
    height: 520px;
