@@ -122,8 +122,8 @@ ul * {
         text-align: center;
         margin: 0;
         display: block;
-        overflow: hidden;
-        z-index: 1;
+        /* overflow: hidden;
+        z-index: 1; */
       }
       .navigation-menu ul {
         /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
