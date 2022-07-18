@@ -3,3 +3,8 @@
     display: flex;
     margin-top: 0.5em;
 }
+.view{
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+}
