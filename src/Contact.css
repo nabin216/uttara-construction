@@ -127,6 +127,10 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
 .con-text{
     padding-top: 0.4em;
 }
+.con-text:hover{
+    color: white;
+    font-weight: 700;
+}
 @media screen and (max-width:600px) {
     #contactsection{
         height: 100%;
