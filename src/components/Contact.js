@@ -93,7 +93,7 @@ function Contact(){
                         <Icon icon="bxs:phone-incoming" id='conicon' />
                     </div>
                     <div className="con-text">
-                     <a href="tel:+91 8989-614-646">8989-614-646</a> 
+                     <a href="tel:+91 8989-614-646">89896-14-646</a> 
                     </div>
                 </div>
             </div>

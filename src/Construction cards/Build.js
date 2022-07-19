@@ -7,7 +7,7 @@ export default function Build() {
         <div className="paln">
             <img src={build} alt="" id="bg" height={86} width={86}/>
             <div className="phead">Building</div>
-            <p className="ppara"> As soon as you have your plans in place, we start construction using durable, low-maintenance, environmentally friendly materials.</p>
+            <p className="ppara"> As soon as you have your plans in place, we start construction using durable, low-maintenance, environmental friendly materials.</p>
         </div>
     </div>
   )

@@ -40,12 +40,12 @@ export default function Footer() {
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i>                      
-                <a id='foothover' href="tel:+91 8989-614-646">8989-614-646</a> 
+                <a id='foothover' href="tel:+91 8989-614-646">89896-14-646</a> 
 
               </p>
               <p>
                 <i className='fas fa-print me-3'></i>                     
-                 <a id='foothover' href="tel:+91 8989-614-646">8989-614-646</a> 
+                 <a id='foothover' href="tel:+91 8989-614-646">89896-14-646</a> 
 
               </p>
             </div>
