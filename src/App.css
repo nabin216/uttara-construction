@@ -668,6 +668,9 @@ html{
   align-items: center;
   justify-items: center;
 }
+.image{
+  margin: 2em 0em;
+  }
 #img{
   height: 95%;
   width: 95%;
