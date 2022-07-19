@@ -4,8 +4,41 @@ import Nav from './Nav';
 // iconify icons
 import { Icon } from '@iconify/react';
 import Footer from './Footer';
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+
+
 
 function Contact(){
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        to_name: '',
+        message: '',
+        reply_to: '',
+      });
+    
+      const onSubmit = (e) => {
+        e.preventDefault();
+        {/* --- METHOD TO SEND THE MAIL --- */}
+        send(
+          'service_pp3bpkg',
+          'template_839eo6i',
+          toSend,
+          'user_m0sMh3qvjp4HeTas3kAoH'
+        )
+          .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            alert("Thank You for your message 🤝");
+          })
+          .catch((err) => {
+            console.log('FAILED...', err);
+          });
+      };
+    
+      const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
+    
     return (
    
       <div id='contactsection'>
@@ -15,19 +48,24 @@ function Contact(){
             {/* form */}
             <div className="conform">
                 <h3 className="write">Write to us </h3> 
-                <div className="formblock">
+                <div className="formblock" >
+                    <form onSubmit={onSubmit}>
                 <div className="name">
-                <input type="text" name="" id="" placeholder='Name' />
+                <input type="text" name="from_name" id="" placeholder='Name' value={toSend.from_name}
+                    onChange={handleChange} required/>
                 </div>
                 <div className="emaill">
-                <input type="email" name="" id="" placeholder='Email'/>
+                <input type="email" name="emailll" id="" placeholder='Email' value={toSend.emailll}
+                    onChange={handleChange} required/>
                 </div>
                 <div className="msgg">
-                <textarea name="" id="" cols="35" rows="8" placeholder='Message'></textarea>
+                <textarea name="message" id="" cols="35" rows="8" placeholder='Message' value={toSend.message}
+                    onChange={handleChange} required></textarea>
                 </div>
                 <div className="buttoncon">
                 <button type="submit" value="Submit" id='button'>Submit</button>
                 </div>
+                </form>
                 </div>
             </div>
             {/* contact side */}
