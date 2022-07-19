@@ -1,10 +1,27 @@
 .service{
-    background-image: url("https://i.pinimg.com/originals/ab/57/e7/ab57e7728808d24d6d04570aa9b0808b.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    background-size: cover;
+    animation: bg 10s  infinite alternate ;
+    animation-fill-mode: forwards;
     
 }
+@keyframes bg {
+    0% {
+      background-image: url('https://c4.wallpaperflare.com/wallpaper/973/1004/995/interior-design-room-carpets-couch-wallpaper-preview.jpg');
+    }
+    50% {
+      background-image: url('https://c4.wallpaperflare.com/wallpaper/480/897/69/room-blue-furniture-couch-wallpaper-preview.jpg');
+     
+    }
+    100% {
+   
+    background-image: url("https://i.pinimg.com/originals/ab/57/e7/ab57e7728808d24d6d04570aa9b0808b.jpg");
+
+   
+    }
+  }
 html{
     scroll-behavior: smooth;
 }
@@ -25,21 +42,23 @@ html{
     font-size: 2.4em;
     font-weight: bold;
     border: 8px solid transparent;
-    animation: borde infinite 5s alternate forwards;
+    animation: borde infinite 3s alternate forwards;
     background-image:
-        linear-gradient(white, rgba(255, 255, 255, 0.558)),
-        linear-gradient(180deg, rgb(72, 103, 161), rgb(0, 96, 128) 50%, rgb(100, 105, 237));
-
+        linear-gradient(rgba(255, 255, 255, 0.799), rgba(255, 255, 255, 0.558)),
+        linear-gradient(180deg, rgb(72, 103, 161), rgb(68, 79, 239) 50%, rgb(100, 105, 237));
+    
       background-repeat: no-repeat;
       background-size: 100% 100%, 100% 200%;
       background-position: 0 0, 0 100%;
       background-origin: padding-box, border-box;
+    
      
 }
 
+
 @keyframes borde     {
     100% {
-        background-position: 0 0, 0 0;
+
       }
 }
 #arroww{
@@ -47,10 +66,11 @@ html{
     margin-right: 25em;
     margin-top: 5em;
     height: 8em;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 50%;
     scroll-behavior: smooth;
     cursor:pointer;
+    font-weight: 900;
 }
 .gridsec{
     margin-top: 27em;
@@ -69,7 +89,8 @@ html{
         background-repeat: no-repeat;
         height: 100vh;
         width: 100vw;
-        
+        background-image: url('https://media.istockphoto.com/photos/purple-blue-wall-living-room-interior-2022-very-peri-3d-rendering-picture-id1358348907?b=1&k=20&m=1358348907&s=170667a&w=0&h=qn97phnipn3IJbn79TFWd89GkxYEgS9FIi2lWnIHgf4=');
+        animation: none;
     } 
     .explore h2{
    
@@ -100,4 +121,5 @@ text-align: center;
 .servicesec{
     margin-top: -5em;
 }
+
 }

@@ -303,8 +303,8 @@ z-index: 0;
   display: flex;
   width: 100vw;
   height:100vh;
-  /* background-color: white; */
-  /* background-image: url(https://wallpapershome.com/images/pages/ico_h/20330.jpg); */
+
+  background-image: url(https://wallpapershome.com/images/pages/ico_h/20330.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -316,14 +316,14 @@ z-index: 0;
 
 @keyframes image {
   0% {
-    background-image: url('https://img.freepik.com/premium-photo/modern-cozy-mock-up-interior-design-living-room-white-decoration-wall-pattern-background_221619-158.jpg');
+    background-image: url('./assets/wall3.webp');
   }
   50% {
     background-image: url('./assets/wallpaper.jpg');
    
   }
   100% {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/004/365/884/original/empty-white-wooden-wall-on-wooden-floor-interior-design-3d-rendering-free-photo.jpg');
+    background-image: url('./assets/wall2.webp');
   }
 }
 
@@ -646,14 +646,14 @@ i{
     }
     @keyframes image {
       0% {
-        background-image: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8&w=1000&q=80');
+        background-image: url('./assets/mwallpaper.jpg');
       }
       50% {
         background-image: url('./assets/wallpaper.jpg');
        
       }
       100% {
-        background-image: url('https://static.vecteezy.com/system/resources/previews/004/365/884/original/empty-white-wooden-wall-on-wooden-floor-interior-design-3d-rendering-free-photo.jpg');
+        background-image: url('./assets//wall2.webp');
       }
     }
 }
