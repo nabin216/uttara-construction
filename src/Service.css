@@ -10,9 +10,11 @@
 @keyframes bg {
     0% {
       background-image: url('https://c4.wallpaperflare.com/wallpaper/973/1004/995/interior-design-room-carpets-couch-wallpaper-preview.jpg');
+      
     }
     50% {
       background-image: url('https://c4.wallpaperflare.com/wallpaper/480/897/69/room-blue-furniture-couch-wallpaper-preview.jpg');
+     
      
     }
     100% {
@@ -73,7 +75,7 @@ html{
     font-weight: 900;
 }
 .gridsec{
-    margin-top: 27em;
+    margin-top: 26em;
     padding-top: 2em;
     padding-bottom: 2em;
     /* margin-bottom: 10em; */
