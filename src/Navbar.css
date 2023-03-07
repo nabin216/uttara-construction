@@ -93,7 +93,7 @@ ul * {
     border-right: 5px solid darkblue;
   }
   ul #hoveer:hover {
-    color: rgb(3, 3, 254);
+    color: darkblue;
   }
   ul #hoveer:hover:before{
     opacity: 1;
@@ -105,8 +105,6 @@ ul * {
   padding-top: 0.4rem;
 }
 #wpbut:hover{
-  font-weight: 600;
-  font-size: 20px;
   filter: drop-shadow(8px 8px 19px rgba(41,44,49,0.22));
 }
   @media screen and (max-width: 768px) {
@@ -148,7 +146,7 @@ ul * {
         display: block;
       }
       .navigation-menu li:hover {
-        background-color: gray;
+        background-color:gray;
       }
       .navigation-menu.expanded ul {
         display: block;

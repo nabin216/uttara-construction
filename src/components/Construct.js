@@ -5,12 +5,7 @@ import video2 from '../videos/video2.mp4'
 import video3 from '../videos/video3.mp4'
 import Footer from './Footer'
 import Plan from "../Construction cards/Plan"
-import Design from '../Construction cards/Design'
-import Build from '../Construction cards/Build'
-import Finish from '../Construction cards/Finish'
 import Stat1 from '../Construction cards/Stat1'
-import Stat2 from '../Construction cards/Stat2'
-import Stat3 from '../Construction cards/Stat3'
 import Test1 from '../Construction cards/Test1'
 import Test2 from '../Construction cards/Test2'
 
@@ -23,18 +18,13 @@ export default function Construct() {
         </div>
        {/* how it works */}
        <div className="work">
-          <h2 id='heh3'>Our Working Structure</h2>
-          <div className="work-flex">
+          <h2 className='workstruct'>Our Working Structure</h2>
+          <div>
             <Plan />
-            <Design />
-            <Build />
-            <Finish />
           </div>
           <div className="stat">Stats</div>
-          <div className="stat-flex">
+          <div >
               <Stat1 />
-              <Stat2 />
-              <Stat3 />
           </div>
           <div className="stat">Testimonials</div>
           <div className="stat-flex">

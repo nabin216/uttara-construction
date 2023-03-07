@@ -1,12 +1,17 @@
 import React from 'react'
-
+import stat from './StatsInfo'
 export default function Stat1() {
   return (
-    <div>
-          <div className="statc">
-            <div className="s-num">100%</div>
-            <p className="stathead">Satisfied Clients</p>
+    <div className="stat-flex">
+      {stat.map((item)=>{
+        return <>
+        <div className="statc">
+            <div className="s-num">{item.title}</div>
+            <p className="stathead">{item.body} </p>
         </div>
+        </>
+      })}
+          
     </div>
   )
 }
