@@ -114,8 +114,7 @@ export default function Service() {
                     3D Elevation
                   </h2>
                   <p class="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  3D elevation is a digital representation of the height and shape of a terrain or object, including its natural and man-made features.
                   </p>
                 </div>
               </div>
@@ -136,8 +135,7 @@ export default function Service() {
                     Vastu wise house and shop Architecture
                   </h2>
                   <p class="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  Vastu-based architecture for houses and shops aims to create a harmonious and balanced living or working environment
                   </p>
                 </div>
               </div>
@@ -158,8 +156,7 @@ export default function Service() {
                     3D Interior Design
                   </h2>
                   <p class="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  Our 3D interior design services bring your vision to life by creating immersive and photorealistic renderings that enable you to experience your dream space before it's built
                   </p>
                 </div>
               </div>
@@ -180,8 +177,7 @@ export default function Service() {
                     Structure Design
                   </h2>
                   <p class="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  Structure design is the art and science of creating safe, efficient, and aesthetically pleasing structures, from skyscrapers and bridges to houses and furniture
                   </p>
                 </div>
               </div>
@@ -202,8 +198,7 @@ export default function Service() {
                     Building permit
                   </h2>
                   <p class="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
+                  We offer building permit services to ensure compliance with local building codes, regulations, and safety standards for construction and renovation projects
                   </p>
                 </div>
               </div>

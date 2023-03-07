@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../assets/profile21.jpg'
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 
 AOS.init();
