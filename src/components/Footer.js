@@ -13,7 +13,7 @@ export default function Footer() {
                 <Count />
             </div>
             <div className="flink">
-            <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
+            <h6 className='text-uppercase fw-bold mb-4 text-lg font-bold'>Links</h6>
                 <div>
                 <a id='fleft' href="/">Home</a>
                 </div>
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
             <div className="addr">
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-lg font-bold'>Contact</h6>
               <p>
                 <i id='foothover' className='fas fa-home me-3'></i>44, Opposit Dak Bunglow <br></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pipliya Mandi, Mandsaur(M.P)
               </p>

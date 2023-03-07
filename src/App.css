@@ -10,7 +10,7 @@
   pointer-events: none;
 }
 
-html{
+html,body{
   scroll-behavior: smooth;
 }
 
@@ -355,23 +355,20 @@ cursor: pointer;
 margin-left: -2em;
   font-size: 0.4em;
 font-weight: 700;
- 
   cursor: pointer;
   padding: 1em;
   border: transparent 2px solid;
-  border-radius: 16px;
+  border-radius: 8px;
 }
-#star:hover{
+#star:hover, #serv:hover{
   box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
   0 2px 2px rgba(0,0,0,0.11), 
   0 4px 4px rgba(0,0,0,0.11), 
   0 8px 8px rgba(0,0,0,0.11), 
   0 16px 16px rgba(0,0,0,0.11), 
   0 32px 32px rgba(0,0,0,0.11);
-transition: all 0.3s ease-in-out;
-transform: scale(1.2);
+transition: all 0s ease-in-out;
 border: rgba(255, 255, 255, 0.066) 2px solid;
-/* background-color: #ffffff; */
 background-image: linear-gradient(315deg, #1912d6 25%, #020f21 74%);
 font-weight: 700;
 color: white;
@@ -447,36 +444,21 @@ margin: 2em 4em;
   margin-top: 2em;
 }
 #serv{
-  background-color: blue;
+  background-color: darkblue;
   color: white;
   font-size: 1.2em;
   padding: 0.8em 1em;
   text-decoration: none;
   z-index: 1;
   border: transparent 2px;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 6px 6px rgba(0,0,0,0.2);
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
   
 
 }
-#serv:hover{
-  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-              0 2px 2px rgba(0,0,0,0.11), 
-              0 4px 4px rgba(0,0,0,0.11), 
-              0 8px 8px rgba(0,0,0,0.11), 
-              0 16px 16px rgba(0,0,0,0.11), 
-              0 32px 32px rgba(0,0,0,0.11);
-transition: all 0.3s ease-in-out;
-transform: scale(1.2);
-  /* border: rgba(255, 255, 255, 0.066) 2px solid; */
-  background-color: #6a93cb;
-  background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
-  color: #303030;
-  font-weight: 700;
 
-}
 
 /* card */
 .flexcard{
@@ -660,7 +642,7 @@ i{
 html{
   scroll-behavior: smooth;
 }
-@media screen and (max-width:900px) and (min-width:600px) {
+@media screen and (max-width:900px) and (min-width:500px) {
 .flexhero{
   display: grid;
   column-gap: 0em;
