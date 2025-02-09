@@ -1,14 +1,15 @@
 import { useState } from "react"
 import "../Navbar.css"
 import wp from "../assets/wp-button.png"
-import logo from "../assets/logo.png"
+import logo from "../assets/logo2.PNG"
 
 export default function Nav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
     <nav className="navigation" >
-        <img src={logo} alt="" height={170} width={170} />
+        <img src={logo} alt="Logo" height={50} width={50} className="logo" />
+        <h1 className="title">Uttara Construction</h1>
   
       <button
         className="hamburger"

@@ -107,6 +107,25 @@ ul * {
 #wpbut:hover{
   filter: drop-shadow(8px 8px 19px rgba(41,44,49,0.22));
 }
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    margin-left: 1rem;
+  }
+.title{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: black;
+}
+  .navigation-menu.expanded ul {
+    display: block;
+}
+
+
   @media screen and (max-width: 768px) {
     .hamburger {
       display: block;

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer">
             <div className="ftext">
                 <p className="fp">
-                    SHREERAM ARCHITECT AND CONSTRUCTION<br></br>We design your dreams!
+                    UTTARA ARCHITECT AND CONSTRUCTION<br></br>We design your dreams!
                 </p>
                 <Count />
             </div>
@@ -32,20 +32,20 @@ export default function Footer() {
             <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4 text-lg font-bold'>Contact</h6>
               <p>
-                <i id='foothover' className='fas fa-home me-3'></i>44, Opposit Dak Bunglow <br></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pipliya Mandi, Mandsaur(M.P)
+                <i id='foothover' className='fas fa-home me-3'></i>House-17, Road-18, Sector-07<br></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uttara, Dhaka-1230, Bangladesh
               </p>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                <a id='foothover' href="mailto:yashfarkya@gmail.com">yashfarkya@gmail.com</a> 
+                <a id='foothover' href="constructionuttara@gmail.com">constructionuttara@gmail.com</a> 
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i>                      
-                <a id='foothover' href="tel:+91 8989-614-646">89896-14-646</a> 
+                <a id='foothover' href="tel:+01630715744">+01630715744</a> 
 
               </p>
               <p>
                 <i className='fas fa-print me-3'></i>                     
-                 <a id='foothover' href="tel:+91 8989-614-646">89896-14-646</a> 
+                 <a id='foothover' href="tel:+01630715744">+01630715744</a> 
 
               </p>
             </div>
