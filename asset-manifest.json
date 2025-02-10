@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/uttara-construction/static/css/main.e1508523.css",
+    "main.js": "/uttara-construction/static/js/main.73b34e05.js",
+    "static/js/453.efedc2b0.chunk.js": "/uttara-construction/static/js/453.efedc2b0.chunk.js",
+    "static/media/video3.mp4": "/uttara-construction/static/media/video3.ad9fdb3bf322ab5a5180.mp4",
+    "static/media/wall2.webp": "/uttara-construction/static/media/wall2.e8075e5fdfa980def5c6.webp",
+    "static/media/video1.mp4": "/uttara-construction/static/media/video1.126b50518476165accc6.mp4",
+    "static/media/constructionbg.png": "/uttara-construction/static/media/constructionbg.ebeb76a4bb984e2064f7.png",
+    "static/media/img6.png": "/uttara-construction/static/media/img6.a7ae89d12a63fb2e3151.png",
+    "static/media/img3.png": "/uttara-construction/static/media/img3.a8e67376360f2314b66b.png",
+    "static/media/img1.png": "/uttara-construction/static/media/img1.f54c868a6391322bf1aa.png",
+    "static/media/img7.png": "/uttara-construction/static/media/img7.ca1a7c71705897444363.png",
+    "static/media/img2.png": "/uttara-construction/static/media/img2.11a1872f65bbe7bf4bd2.png",
+    "static/media/img5.png": "/uttara-construction/static/media/img5.0e34fc61b2596db14814.png",
+    "static/media/img4.png": "/uttara-construction/static/media/img4.e1053eab467877ca494a.png",
+    "static/media/worker.webp": "/uttara-construction/static/media/worker.3e59e6b0a3f2d26ef653.webp",
+    "static/media/video2.mp4": "/uttara-construction/static/media/video2.ce40ea2ae6eb5e48e5d2.mp4",
+    "static/media/arrow.gif": "/uttara-construction/static/media/arrow.26d4bdd829159c68382b.gif",
+    "static/media/Tools-16.jpg": "/uttara-construction/static/media/Tools-16.d4d87d526892bda1d72d.jpg",
+    "static/media/logo2.PNG": "/uttara-construction/static/media/logo2.d85fcb1feaa25b06880e.PNG",
+    "static/media/wallpaper.jpg": "/uttara-construction/static/media/wallpaper.8d4c9481983fe55fe3be.jpg",
+    "static/media/mwallpaper.jpg": "/uttara-construction/static/media/mwallpaper.5968eb31793b9b1bc350.jpg",
+    "static/media/Elevaton.png": "/uttara-construction/static/media/Elevaton.0f1a42146a6a7ce5827e.png",
+    "static/media/housemap.png": "/uttara-construction/static/media/housemap.cde9c9451dc03ddea646.png",
+    "static/media/permit.png": "/uttara-construction/static/media/permit.2132da431781d6fb835e.png",
+    "static/media/interior.png": "/uttara-construction/static/media/interior.bac0abf6136da5759337.png",
+    "static/media/wall3.webp": "/uttara-construction/static/media/wall3.cbf764791de4a3c87b64.webp",
+    "static/media/structure.png": "/uttara-construction/static/media/structure.73e11f6724f76e4cd9c6.png",
+    "index.html": "/uttara-construction/index.html",
+    "main.e1508523.css.map": "/uttara-construction/static/css/main.e1508523.css.map",
+    "main.73b34e05.js.map": "/uttara-construction/static/js/main.73b34e05.js.map",
+    "453.efedc2b0.chunk.js.map": "/uttara-construction/static/js/453.efedc2b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1508523.css",
+    "static/js/main.73b34e05.js"
+  ]
+}
