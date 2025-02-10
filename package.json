@@ -29,11 +29,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "next build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "homepage": "https://nabin216.github.io/uttara-construction",
   "eslintConfig": {
     "extends": [
       "react-app",
